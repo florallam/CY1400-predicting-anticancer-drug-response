@@ -1,0 +1,14 @@
+This file consists of the codes that were used to build the three different models: 
+Linear regression, Random forest and support vector regression
+
+The file brca_revised.ipynb was modified to include Lasso regression and SVR-RFE for feature selection. 
+
+For brca_main.ipynb,
+The models were first built using breast cancer data, then re-tested on coread cancer data in the file coread_test.ipynb
+
+The main concern/problem at the end is the calculation of accuracy levels. The code that was used involved mape.
+This was a problem as the accuracy levels were over 100. 
+But R^2 was used to create an accuracy score (where 1 is a good model and 0 is a bad model) would be really low
+
+CY1400-drug_smiles contains the code I used previously for combining the datasets, but there were *errors*,
+so Dr. Rama provided me her data file after I was done creating mine

@@ -1,0 +1,11 @@
+Requirement: 
+Python 3 
+
+Packages: 
+numpy (version 1.18.1) 
+pandas (version 1.0.3) 
+seaborn (version 0.10.0) 
+rdkit (version 2019.09.2) 
+sklearn (version 0.22.1) 
+matplotlib (version 3.1.3') 
+

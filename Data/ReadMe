@@ -1,0 +1,27 @@
+The folder 'Data' consists of the data that were used to build the models 
+The main folder of interest is the brca_main.ipynb
+
+The following are the file names and what information they contain:
+1) DrugData.csv 
+- data extracted from GDSC containing drug performance with BRCA cell lines
+
+2) DrugData_coread.csv 
+- data extracted from GDSC containing drug performance with COREAD cell lines
+
+3) GDSC2_fitted_dose_response_15Oct19.xlsx 
+- the initial file sent to me by Dr. Rama to extract the relevant information
+
+4) cyinputdata_copy 
+- chose a particular cell line from the BRCA list (CAL-51) with the drug id, ic50, smiles and fingerprints
+
+5) drug_smiles.csv 
+- sent to me by Dr. Rama when the file from my initial code returned one/two less drugs
+
+6) rdkit_fp_copy.csv 
+-processing of SMILES to include the fingerprints
+
+7) compounds_pubchem.csv
+-contains the SMILES, pubchem ID, molecular weight
+
+8)compound_data6dec2019.csv
+-contains the pubchem ID and drug ID
